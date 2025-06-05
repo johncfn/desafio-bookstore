@@ -36,7 +36,7 @@ public class BookStorePage {
 	public int countNumberOfRows() {
 		WebElement tableRow = driver.findElement(table);
 		List<WebElement> images = tableRow.findElements(By.tagName("img"));
-		return images.size();		
+		return images.size();
 	}
 	
 	public void clickOnBookStoreFromProfile() {

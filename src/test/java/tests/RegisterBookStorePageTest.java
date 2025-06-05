@@ -67,7 +67,7 @@ public class RegisterBookStorePageTest {
 		logger.info("Filling fields of register page");
 		test.log(Status.INFO, "Filling fields of register page");
 		
-		registerBookStorePage.registerNewUser("João", "Zinho", "Joaozinho123", "SenhaDoJoao123!");
+		registerBookStorePage.registerNewUser(TestData.FIRST_NAME,TestData.LAST_NAME, TestData.USERNAME, TestData.PASSWORD);
 		logger.info("Waiting the captcha to be solved manually");
 		Thread.sleep(10000);
 		logger.info("Sending register");
