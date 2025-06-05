@@ -8,11 +8,11 @@ import org.openqa.selenium.WebElement;
 import org.openqa.selenium.support.ui.ExpectedConditions;
 import org.openqa.selenium.support.ui.WebDriverWait;
 
-public class Profile {
+public class ProfilePage {
 	
 	private WebDriver driver;
 	
-	public Profile(WebDriver driver) {
+	public ProfilePage(WebDriver driver) {
 		this.driver = driver;
 	}
 	

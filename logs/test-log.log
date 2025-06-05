@@ -71,3 +71,17 @@
 2025-06-04 22:39:34 [main] INFO  tests.BookStorePageTest - Numero de livros: 4
 2025-06-04 22:39:34 [main] INFO  tests.BookStorePageTest - Livro Learning JavaScript Design Patterns do autor O'Reilly Media, foi encontrado entre os 4 resultados da pesquisa.
 2025-06-04 22:39:35 [main] INFO  tests.BookStorePageTest - Encerrando o navegador
+2025-06-04 23:21:57 [main] INFO  tests.BookStorePageTest - Starting browser and going to Login Page
+2025-06-04 23:21:57 [main] INFO  tests.BookStorePageTest - Search after login
+2025-06-04 23:22:00 [main] INFO  tests.BookStorePageTest - Going to book search page
+2025-06-04 23:22:00 [main] INFO  tests.BookStorePageTest - Search Book
+2025-06-04 23:22:00 [main] INFO  tests.BookStorePageTest - Counting number of books listed
+2025-06-04 23:22:00 [main] INFO  tests.BookStorePageTest - Number of books: 4
+2025-06-04 23:22:01 [main] INFO  tests.BookStorePageTest - Closing browser
+2025-06-04 23:24:45 [main] INFO  tests.BookStorePageTest - Starting browser and going to Login Page
+2025-06-04 23:24:45 [main] INFO  tests.BookStorePageTest - Search after login
+2025-06-04 23:24:47 [main] INFO  tests.BookStorePageTest - Going to book search page
+2025-06-04 23:24:47 [main] INFO  tests.BookStorePageTest - Search Book
+2025-06-04 23:24:48 [main] INFO  tests.BookStorePageTest - Counting number of books listed
+2025-06-04 23:24:48 [main] INFO  tests.BookStorePageTest - Number of books: 4
+2025-06-04 23:24:48 [main] INFO  tests.BookStorePageTest - Closing browser

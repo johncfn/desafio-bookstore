@@ -28,14 +28,14 @@ import org.apache.logging.log4j.Logger;
 
 import pages.BookStorePage;
 import pages.LoginPage;
-import pages.Profile;
+import pages.ProfilePage;
 
 public class BookStorePageTest {
 	
 	static WebDriver driver;
 	static BookStorePage bookStorePage;
 	static LoginPage loginPage;
-	static Profile profile;
+	static ProfilePage profile;
 	static ExtentReports extent;
 	static ExtentTest test;
 	
@@ -49,14 +49,14 @@ public class BookStorePageTest {
 		extent = ExtentManager.getInstance();
 		loginPage = new LoginPage(driver);
 		bookStorePage = new BookStorePage(driver);
-		profile = new Profile(driver);
-		logger.info("Iniciando navegador e acessando página de login");
+		profile = new ProfilePage(driver);
+		logger.info("Starting browser and going to Login Page");
 	}
 
 	@AfterClass
 	public static void tearDownAfterClass() throws Exception {
 		extent.flush(); 
-	    logger.info("Encerrando o navegador");
+	    logger.info("Closing browser");
 		driver.quit();
 	}
 
@@ -71,36 +71,36 @@ public class BookStorePageTest {
 
 	@Test
 	public void shouldSearchABookOnSearchFieldAndVerifyTheResult() throws InterruptedException {
-		test = extent.createTest("Fazer Pesquisa após login");
-		logger.info("Fazer Login com usuário");
-		test.log(Status.INFO, "Fazer Login com usuário");
+		test = extent.createTest("Search after login");
+		logger.info("Search after login");
+		test.log(Status.INFO, "User Login");
 		loginPage.loginUser(TestData.USERNAME, TestData.PASSWORD);
 		String userLogin = profile.checkUsernameLogin();
 		assertEquals(TestData.USERNAME, userLogin);
 		
 		
-		logger.info("Indo para página de pesquisa de Livros");
-		test.log(Status.INFO, "Indo para página de pesquisa de Livros");
+		logger.info("Going to book search page");
+		test.log(Status.INFO, "Going to book search page");
 		bookStorePage.clickOnBookStoreFromProfile();
 		
-		logger.info("Pesquisando livro");
-		test.log(Status.INFO, "Pesquisando livro");
+		logger.info("Search Book");
+		test.log(Status.INFO, "Search Book");
 		bookStorePage.searchABookOnSearchField("javascript");	
 		
-		logger.info("Contando numero de livros retornados");
+		logger.info("Counting number of books listed");
 		int rows = bookStorePage.countNumberOfRows();
-		logger.info("Numero de livros: " + bookStorePage.countNumberOfRows());		
+		logger.info("Number of books: " + bookStorePage.countNumberOfRows());		
 		
 		String title = bookStorePage.getBookTitle(0);
-        String author = bookStorePage.getBookAuthor(0);       
-        
+        String author = bookStorePage.getBookAuthor(0);  
+                
         String mensagem = String.format(
                 "Livro %s do autor %s, foi encontrado entre os %d resultados da pesquisa.",
                 title, author, rows
         );
         
         logger.info(mensagem);
-        test.log(Status.PASS, "Numero de livros listados e apresentado");
+        test.log(Status.PASS, "Books listed correctly");
         ScreenshotUtil.takeScreenshot(driver, "{JavaScript}_SearchResults");
        		
 	}
