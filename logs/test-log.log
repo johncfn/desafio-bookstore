@@ -1,0 +1,73 @@
+2025-06-03 20:36:13 [main] INFO  tests.RegisterBookStorePageTest - Iniciando navegador e acessando página de registro
+2025-06-03 20:36:13 [main] INFO  tests.RegisterBookStorePageTest - Preenchendo dados de registro
+2025-06-03 20:36:23 [main] INFO  tests.RegisterBookStorePageTest - Enviando formulário de registro
+2025-06-03 20:36:24 [main] INFO  tests.RegisterBookStorePageTest - Teste de registro concluído com sucesso.
+2025-06-03 20:36:24 [main] INFO  tests.RegisterBookStorePageTest - Iniciando teste de login com usuário: Joaozinho123
+2025-06-03 20:36:25 [main] INFO  tests.RegisterBookStorePageTest - Redirecionado para página de login
+2025-06-03 20:36:27 [main] INFO  tests.RegisterBookStorePageTest - Encerrando o navegador
+2025-06-04 21:17:21 [main] INFO  tests.BookStorePageTest - [[[[[ChromeDriver: chrome on windows (bec21b4a0d7a38bf936499b83e7989d2)] -> xpath: //div[@class='ReactTable -striped -highlight']]] -> tag name: img], [[[[ChromeDriver: chrome on windows (bec21b4a0d7a38bf936499b83e7989d2)] -> xpath: //div[@class='ReactTable -striped -highlight']]] -> tag name: img], [[[[ChromeDriver: chrome on windows (bec21b4a0d7a38bf936499b83e7989d2)] -> xpath: //div[@class='ReactTable -striped -highlight']]] -> tag name: img], [[[[ChromeDriver: chrome on windows (bec21b4a0d7a38bf936499b83e7989d2)] -> xpath: //div[@class='ReactTable -striped -highlight']]] -> tag name: img]]
+2025-06-04 21:19:18 [main] INFO  tests.BookStorePageTest - [[[[[ChromeDriver: chrome on windows (d67443fb5f8b8301d049744147e32cbc)] -> xpath: //div[@class='ReactTable -striped -highlight']]] -> tag name: img], [[[[ChromeDriver: chrome on windows (d67443fb5f8b8301d049744147e32cbc)] -> xpath: //div[@class='ReactTable -striped -highlight']]] -> tag name: img], [[[[ChromeDriver: chrome on windows (d67443fb5f8b8301d049744147e32cbc)] -> xpath: //div[@class='ReactTable -striped -highlight']]] -> tag name: img], [[[[ChromeDriver: chrome on windows (d67443fb5f8b8301d049744147e32cbc)] -> xpath: //div[@class='ReactTable -striped -highlight']]] -> tag name: img]]
+2025-06-04 21:20:35 [main] INFO  tests.BookStorePageTest - [[[[[ChromeDriver: chrome on windows (eb54ab451e996718f48ed5062ca49ac4)] -> xpath: //div[@class='ReactTable -striped -highlight']]] -> tag name: img], [[[[ChromeDriver: chrome on windows (eb54ab451e996718f48ed5062ca49ac4)] -> xpath: //div[@class='ReactTable -striped -highlight']]] -> tag name: img], [[[[ChromeDriver: chrome on windows (eb54ab451e996718f48ed5062ca49ac4)] -> xpath: //div[@class='ReactTable -striped -highlight']]] -> tag name: img], [[[[ChromeDriver: chrome on windows (eb54ab451e996718f48ed5062ca49ac4)] -> xpath: //div[@class='ReactTable -striped -highlight']]] -> tag name: img]]
+2025-06-04 21:22:28 [main] INFO  tests.BookStorePageTest - 4
+2025-06-04 21:22:58 [main] INFO  tests.BookStorePageTest - 1
+2025-06-04 21:29:11 [main] INFO  tests.BookStorePageTest - 4
+2025-06-04 21:34:20 [main] INFO  tests.BookStorePageTest - 4
+2025-06-04 21:34:49 [main] INFO  tests.BookStorePageTest - 4
+2025-06-04 21:36:31 [main] INFO  tests.BookStorePageTest - 4
+2025-06-04 21:40:01 [main] INFO  tests.BookStorePageTest - 4
+2025-06-04 21:42:10 [main] INFO  tests.BookStorePageTest - 4
+2025-06-04 21:45:13 [main] INFO  tests.BookStorePageTest - 4
+2025-06-04 21:48:10 [main] INFO  tests.BookStorePageTest - Numero de livros: 4
+2025-06-04 21:49:07 [main] INFO  tests.BookStorePageTest - Numero de livros: 4
+2025-06-04 21:49:07 [main] INFO  tests.BookStorePageTest - Livro Learning JavaScript Design Patterns do autor O'Reilly Media, foi encontrado entre os 4 resultados da pesquisa.
+2025-06-04 21:53:22 [main] INFO  tests.RegisterBookStorePageTest - Iniciando navegador e acessando página de registro
+2025-06-04 21:53:22 [main] INFO  tests.RegisterBookStorePageTest - Preenchendo dados de registro
+2025-06-04 21:53:32 [main] INFO  tests.RegisterBookStorePageTest - Enviando formulário de registro
+2025-06-04 21:53:33 [main] INFO  tests.RegisterBookStorePageTest - Teste de registro concluído com sucesso.
+2025-06-04 21:53:33 [main] INFO  tests.RegisterBookStorePageTest - Iniciando teste de login com usuário: Joaozinho123
+2025-06-04 21:53:33 [main] INFO  tests.RegisterBookStorePageTest - Redirecionado para página de login
+2025-06-04 21:53:36 [main] INFO  tests.RegisterBookStorePageTest - Encerrando o navegador
+2025-06-04 21:55:07 [main] INFO  tests.RegisterBookStorePageTest - Iniciando navegador e acessando página de registro
+2025-06-04 21:55:07 [main] INFO  tests.RegisterBookStorePageTest - Preenchendo dados de registro
+2025-06-04 21:55:18 [main] INFO  tests.RegisterBookStorePageTest - Enviando formulário de registro
+2025-06-04 21:55:23 [main] INFO  tests.RegisterBookStorePageTest - Iniciando teste de login com usuário: Joaozinho123
+2025-06-04 21:55:23 [main] INFO  tests.RegisterBookStorePageTest - Redirecionado para página de login
+2025-06-04 21:55:25 [main] INFO  tests.RegisterBookStorePageTest - Encerrando o navegador
+2025-06-04 21:56:01 [main] INFO  tests.RegisterBookStorePageTest - Iniciando navegador e acessando página de registro
+2025-06-04 21:56:01 [main] INFO  tests.RegisterBookStorePageTest - Preenchendo dados de registro
+2025-06-04 21:56:11 [main] INFO  tests.RegisterBookStorePageTest - Enviando formulário de registro
+2025-06-04 21:56:12 [main] INFO  tests.RegisterBookStorePageTest - Teste de registro concluído com sucesso.
+2025-06-04 21:56:12 [main] INFO  tests.RegisterBookStorePageTest - Iniciando teste de login com usuário: Joaozinho123
+2025-06-04 21:56:13 [main] INFO  tests.RegisterBookStorePageTest - Encerrando o navegador
+2025-06-04 21:57:23 [main] INFO  tests.RegisterBookStorePageTest - Iniciando navegador e acessando página de registro
+2025-06-04 21:57:23 [main] INFO  tests.RegisterBookStorePageTest - Preenchendo dados de registro
+2025-06-04 21:57:33 [main] INFO  tests.RegisterBookStorePageTest - Enviando formulário de registro
+2025-06-04 21:57:34 [main] INFO  tests.RegisterBookStorePageTest - Teste de registro concluído com sucesso.
+2025-06-04 21:57:34 [main] INFO  tests.RegisterBookStorePageTest - Iniciando teste de login com usuário: Joaozinho123
+2025-06-04 21:57:34 [main] INFO  tests.RegisterBookStorePageTest - Redirecionado para página de login
+2025-06-04 21:57:37 [main] INFO  tests.RegisterBookStorePageTest - Encerrando o navegador
+2025-06-04 22:06:10 [main] INFO  tests.BookStorePageTest - Iniciando navegador e acessando página de login
+2025-06-04 22:06:10 [main] INFO  tests.BookStorePageTest - Fazer Login com usuário
+2025-06-04 22:06:13 [main] INFO  tests.BookStorePageTest - Indo para página de pesquisa de Livros
+2025-06-04 22:06:13 [main] INFO  tests.BookStorePageTest - Pesquisando livro
+2025-06-04 22:06:13 [main] INFO  tests.BookStorePageTest - Contando numero de livros retornados
+2025-06-04 22:06:13 [main] INFO  tests.BookStorePageTest - Numero de livros: 4
+2025-06-04 22:06:13 [main] INFO  tests.BookStorePageTest - Livro Learning JavaScript Design Patterns do autor O'Reilly Media, foi encontrado entre os 4 resultados da pesquisa.
+2025-06-04 22:06:14 [main] INFO  tests.BookStorePageTest - Encerrando o navegador
+2025-06-04 22:37:58 [main] INFO  tests.BookStorePageTest - Iniciando navegador e acessando página de login
+2025-06-04 22:37:58 [main] INFO  tests.BookStorePageTest - Fazer Login com usuário
+2025-06-04 22:38:00 [main] INFO  tests.BookStorePageTest - Indo para página de pesquisa de Livros
+2025-06-04 22:38:00 [main] INFO  tests.BookStorePageTest - Pesquisando livro
+2025-06-04 22:38:01 [main] INFO  tests.BookStorePageTest - Contando numero de livros retornados
+2025-06-04 22:38:01 [main] INFO  tests.BookStorePageTest - Numero de livros: 4
+2025-06-04 22:38:01 [main] INFO  tests.BookStorePageTest - Livro Learning JavaScript Design Patterns do autor O'Reilly Media, foi encontrado entre os 4 resultados da pesquisa.
+2025-06-04 22:38:01 [main] INFO  tests.BookStorePageTest - []
+2025-06-04 22:38:01 [main] INFO  tests.BookStorePageTest - Encerrando o navegador
+2025-06-04 22:39:31 [main] INFO  tests.BookStorePageTest - Iniciando navegador e acessando página de login
+2025-06-04 22:39:31 [main] INFO  tests.BookStorePageTest - Fazer Login com usuário
+2025-06-04 22:39:34 [main] INFO  tests.BookStorePageTest - Indo para página de pesquisa de Livros
+2025-06-04 22:39:34 [main] INFO  tests.BookStorePageTest - Pesquisando livro
+2025-06-04 22:39:34 [main] INFO  tests.BookStorePageTest - Contando numero de livros retornados
+2025-06-04 22:39:34 [main] INFO  tests.BookStorePageTest - Numero de livros: 4
+2025-06-04 22:39:34 [main] INFO  tests.BookStorePageTest - Livro Learning JavaScript Design Patterns do autor O'Reilly Media, foi encontrado entre os 4 resultados da pesquisa.
+2025-06-04 22:39:35 [main] INFO  tests.BookStorePageTest - Encerrando o navegador
