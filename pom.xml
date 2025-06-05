@@ -55,6 +55,7 @@
 		    <version>2.20.0</version>
 		</dependency>
 		
+		<!-- API tests -->
 		<dependency>
 		    <groupId>com.fasterxml.jackson.core</groupId>
 		    <artifactId>jackson-databind</artifactId>
